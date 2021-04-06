@@ -6,12 +6,7 @@ const Descripcion = () =>{
   return <p>Esta es la descripción de mi mensaje de prueba</p>
 }
 
-const Avatar = (src, size) =>{
-  return (
-  <img className={size ? ''} src={src}></img>
 
-  )
-}
 
 const App = () => {  
   return (
